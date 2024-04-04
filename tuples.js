@@ -18,9 +18,6 @@ var displayAverageOfGrades = function (subjects) {
 var students1 = ["Math", 80, "English", 93, "Physics", 80];
 var students2 = ["Math", 70, "English", 63, "Physics", 90];
 var students3 = ["Math", 88, "English", 53, "Physics", 100];
-console.log(displayAverageOfGrades(students1));
-console.log(displayAverageOfGrades(students2));
-console.log(displayAverageOfGrades(students3));
 var city1 = ["punjab", 29, "windy"];
 var city2 = ["phagwara", 25, "cloudy"];
 var city3 = ["ludhiana", 30, "sunny"];
@@ -28,6 +25,9 @@ var displayWeather = function (weather) {
     var cityName = weather[0], cityTemp = weather[1], cityCondition = weather[2];
     return "".concat(cityName, " city currently has ").concat(cityTemp, "\u00B0C and its current condition is ").concat(cityCondition);
 };
-// console.log(displayWeather(city1));
-// console.log(displayWeather(city2));
-// console.log(displayWeather(city3));
+console.log(displayWeather(city1));
+console.log(displayWeather(city2));
+console.log(displayWeather(city3));
+// let number1 = 2;
+// let number2 = 5;
+// console.log(number1 + number2);

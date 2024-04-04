@@ -45,9 +45,9 @@ const students1: SubjectGrade = ["Math", 80, "English", 93, "Physics", 80];
 const students2: SubjectGrade = ["Math", 70, "English", 63, "Physics", 90];
 const students3: SubjectGrade = ["Math", 88, "English", 53, "Physics", 100];
 
-console.log(displayAverageOfGrades(students1));
-console.log(displayAverageOfGrades(students2));
-console.log(displayAverageOfGrades(students3));
+// console.log(displayAverageOfGrades(students1));
+// console.log(displayAverageOfGrades(students2));
+// console.log(displayAverageOfGrades(students3));
 
 // excercise 3
 
