@@ -10,12 +10,22 @@
 // console.log(stringOutput);
 // console.log(booleanOutput);
 //  now let's do it with generics
-var logAndReturn = function (value) {
-    return value;
+// const logAndReturn = <Type>(value: Type): Type => {
+//   return value;
+// };
+// const numberOutput = logAndReturn<number>(43);
+// const stringOutput = logAndReturn<string>("hello typescript generics!");
+// const booleanOutput = logAndReturn<boolean>(true);
+// console.log(numberOutput);
+// console.log(stringOutput);
+// console.log(booleanOutput);
+// excercise
+// const add = <Type extends number>(a: Type, b: Type): number => {
+//   return a + b;
+// };
+// const result1 = add<number>(4, 5);
+var add = function (a, b) {
+    console.log(typeof a);
+    console.log(typeof b);
 };
-var numberOutput = logAndReturn(43);
-var stringOutput = logAndReturn("hello typescript generics!");
-var booleanOutput = logAndReturn(true);
-console.log(numberOutput);
-console.log(stringOutput);
-console.log(booleanOutput);
+add("six", 5);

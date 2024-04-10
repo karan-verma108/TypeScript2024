@@ -14,7 +14,7 @@
 
 //  now let's do it with generics
 
-// const logAndReturn = <T>(value: T): T => {
+// const logAndReturn = <Type>(value: Type): Type => {
 //   return value;
 // };
 
@@ -25,3 +25,18 @@
 // console.log(numberOutput);
 // console.log(stringOutput);
 // console.log(booleanOutput);
+
+// excercise
+
+// const add = <Type extends number>(a: Type, b: Type): number => {
+//   return a + b;
+// };
+
+// const result1 = add<number>(4, 5);
+
+const add = <T, U>(a: T, b: U) => {
+  console.log(typeof a);
+  console.log(typeof b);
+};
+
+add<string, number>("six", 5);
